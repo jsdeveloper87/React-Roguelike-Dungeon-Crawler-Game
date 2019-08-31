@@ -1,0 +1,58 @@
+body
+  background-color: black
+  
+div:focus
+  outline: none
+  
+#game-container
+  margin-top: 40px
+  border: 1px solid white
+  height: 500px
+  
+#game-info
+  margin-top: 5px
+  width: 100%
+  color: white
+  text-align: center
+    
+#game-area
+  margin: 15px
+  text-align: center
+  font-size: small
+  margin-left: auto
+  margin-right: auto
+  td
+    height: 20px
+    width: 20px
+    
+.wall
+  background-color: grey
+  color: white
+  
+.hero
+  background-color: black
+  color: white
+  
+.enemy
+  background-color: red
+  color: white
+  
+.weapon
+  background-color: orange
+  color: black
+  
+.health
+  background-color: green
+  color: white
+  
+.teleport
+  background-color: purple
+  
+.open
+  background-color: white
+  
+.floor
+  background-color: green
+  
+.shadow
+  background-color: black
